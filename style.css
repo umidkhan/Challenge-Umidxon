@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    display: flex;
+    list-style-type: none;
+}
+
+.heading1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.topBtn {
+    border: 2px solid #3F69FF;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    background: transparent;
+}
+
+.box {
+    width: 88px;
+    height: 100px;
+}
+
+.logoTitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.logoText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 10px;
+}
+
+.catalog {
+    background: #3F69FF;
+    border-radius: 5px;
+    width: 116px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.catalog::placeholder {
+    color: black;
+    margin-left: 10px;
+}
+
+.search {
+    width: 400px;
+    height: 41px;
+    border: 2px solid #3F69FF;
+    outline: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0px;
+}
+
+.searchBtn {
+    width: 40px;
+    height: 41px;
+    background: transparent;
+    border: 2px solid #3F69FF;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.userIcon {
+    width: 25px;
+    height: 25px;
+}
